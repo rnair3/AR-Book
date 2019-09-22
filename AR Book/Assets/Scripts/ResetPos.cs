@@ -14,6 +14,7 @@ public class ResetPos : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
+
         transform.localPosition = originalPos;
     }
 }
